@@ -1,6 +1,8 @@
-# HackSAG
+# Hackathon NUWE - Schneider Electric
 
-Brief description here of the challenge
+Nombres: Gabriel Juan, Anthony Michael Alonso, Sergi
+
+Equipo/Mesa: 58
 
 ## FLAG{ALWAYS_CHECK_COMMITS}
 
@@ -30,7 +32,7 @@ python sqlmap.py -u "https://wp.geohome.com/wp-admin/admin-ajax.php?action=get_q
 
 ## FLAG{sanitize_input}
 
-![Hacemos cross side scripting para enviar una peticion a nuestro kali](./images/cross_side_scripting_2.png?raw=true)
+![Hacemos cross side scripting para enviar una peticion a nuestro kali](./images/cross_side_scripting_2.jpg?raw=true)
 
 ![Ponemos un listener en el teminal y cuando se envia la peticion nosotros con el listener la capturamos y conseguimos la flag](./images/FLAG{sanitize_input}.jpg?raw=true)
 
