@@ -2,7 +2,9 @@
 
 Brief description here of the challenge
 
-## FLAG_NAME_1
+## FLAG{ALWAYS_CHECK_COMMITS}
+
+!{imagen del commit donde hemos encontrado el flag}(./images/FLAG{ALWAYS_CHECK_COMMITS}_1.jpg)
 
 Describe here the process to find the flag (you can include videos, images, etc)
 
