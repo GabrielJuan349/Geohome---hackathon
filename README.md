@@ -6,6 +6,11 @@ Equipo/Mesa: 58
 
 ## FLAG{ALWAYS_CHECK_COMMITS}
 
+Para encontrar el git hemos seguido estos pasos:
+- url https definida en http://192.168.56.101/robots.txt
+- Modificar el etc/hosts para añadir 192.168.56.101 wp.geohome.com
+- Accediendo wp.geohome.com, se puede ver un link al github donde está el código fuente en el historial de commits.
+
 ![imagen del commit donde hemos encontrado el flag](./images/FLAG{ALWAYS_CHECK_COMMITS}_1.jpg?raw=true)
 
 Imagen del commit donde hemos encontrado el flag
@@ -27,11 +32,13 @@ python sqlmap.py -u "https://wp.geohome.com/wp-admin/admin-ajax.php?action=get_q
 
 ## API_FLAG{Never_public_your_secret}
 
+Aprovechando la información del git donde muestra endpoints de register y login, hemos creado un usuario y nos hemos logeado para conseguir un access_token.
+Con ese token lo hemos pasado por jwt.io y hemos modificado el usuario por admin, y definido la JWT secret key del github "Ge0HomeIsThePlaceWhereFantasyMeetsReality" y hemos conseguido un nuevo access_token.
+Con ese nuevo token hemos hecho una petición postman apuntando al endpoint /admin, el endpoint /admin lo hemos recuperado con fuzz.
 ![Hacemos el fuzz para encontrar mas endpoints](./images/fuzz_1.jpg?raw=true)
 
 ![cambiamos algunas cosas del token(user y le pinemos admin, y ponemos la JWT_SECRET_KEY](./images/token_admin.jpg?raw=true)
 
-Hacemos el fuzz para encontrar mas endpoints y luego cambiamos algunas cosas del token(user y le ponemos admin, y ponemos la JWT_SECRET_KEY con esto si hacemos una peticion POST conseguimos sacar la FLAG
 
 ## FLAG{sanitize_input}
 
@@ -49,4 +56,3 @@ Ponemos un listener en el teminal y cuando se envia la peticion nosotros con el 
 ![Cambiamos la url para llegar al sitio concreto cambiando letras y todo ](./images/FLAG{SSRF_PARA_TOD@S_XD}.jpg?raw=true)
 
 Para conseguir la Flag hemos usado el URL: http://192.168.56.101/testsite.php?url=http://locAlhost:1337
-
