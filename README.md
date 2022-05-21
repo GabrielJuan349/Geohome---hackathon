@@ -30,7 +30,7 @@ python sqlmap.py -u "https://wp.geohome.com/wp-admin/admin-ajax.php?action=get_q
 
 ## FLAG{sanitize_input}
 
-![Hacemos cross side scripting para enviar una peticion a nuestro kali](./images/cross_side_scripting_2.jpg?raw=true)
+![Hacemos cross side scripting para enviar una peticion a nuestro kali](./images/cross_side_scripting_2.png?raw=true)
 
 ![Ponemos un listener en el teminal y cuando se envia la peticion nosotros con el listener la capturamos y conseguimos la flag](./images/FLAG{sanitize_input}.jpg?raw=true)
 
@@ -38,6 +38,8 @@ python sqlmap.py -u "https://wp.geohome.com/wp-admin/admin-ajax.php?action=get_q
 ## FLAG{SSRF_PARA_TOD@S_XD}
 
 ![Cambiamos la url para llegar al sitio concreto cambiando letras y todo ](./images/FLAG{SSRF_PARA_TOD@S_XD}.jpg?raw=true)
+
+Para conseguir la Flag hemos usado el URL: http://192.168.56.101/testsite.php?url=http://locAlhost:1337
 
 ## FLAG
 
