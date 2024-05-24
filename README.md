@@ -1,9 +1,9 @@
 # Hackathon NUWE - Schneider Electric
 
 Nombres: 
-- Gabriel Juan: (GabrielJuan349)[https://github.com/GabrielJuan349]
-- Anthony Michael Alonso
-- Sergi Morales
+- Gabriel Juan: [GabrielJuan349](https://github.com/GabrielJuan349)
+- Anthony Michael Alonso: [AMAlonso64](https://github.com/AMAlonso64)
+- Sergi Morales: [Mofitex](https://github.com/Mofitex)
 
 Equipo/Mesa: 58
 
