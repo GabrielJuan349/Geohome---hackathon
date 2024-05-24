@@ -1,7 +1,7 @@
 # Hackathon NUWE - Schneider Electric
 
 Nombres: 
-- Gabriel Juan: @GabrielJuan349
+- Gabriel Juan: (GabrielJuan349)[https://github.com/GabrielJuan349]
 - Anthony Michael Alonso
 - Sergi Morales
 
