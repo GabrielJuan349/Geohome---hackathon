@@ -1,6 +1,9 @@
 # Hackathon NUWE - Schneider Electric
 
-Nombres: Gabriel Juan, Anthony Michael Alonso, Sergi Morales
+Nombres: 
+- Gabriel Juan: @GabrielJuan349
+- Anthony Michael Alonso
+- Sergi Morales
 
 Equipo/Mesa: 58
 
